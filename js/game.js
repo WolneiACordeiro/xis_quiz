@@ -1,16 +1,20 @@
 const question = document.getElementById("question");
 const choices = Array.from(document.getElementsByClassName("choice-text"));
 const progressText = document.getElementById("progressText");
-const scoreText = document.getElementById("score");
+// const scoreText = document.getElementById("score");
 const loader = document.getElementById('loader');
 const game = document.getElementById("game");
 const mostRecentName = localStorage.getItem('name');
 const mostRecentTopic = localStorage.getItem('utopic');
 const mostRecentTitle = localStorage.getItem('title');
 const showUserName = document.getElementById("showUserName");
+const showTest = document.getElementById('showTest');
+const currentProgress = document.getElementById('currentProgress');
 const recapAnswer = [];
 
-showUserName.innerText = `Olá ${mostRecentName} você está na prova de ${mostRecentTitle}!`;
+// showUserName.innerText = `Olá ${mostRecentName} você está na prova de ${mostRecentTitle}!`;
+showUserName.innerText = `Olá ${mostRecentName}`;
+showTest.innerText = `Você está na prova de ${mostRecentTitle}!`;
 
 let currentQuestion = {};
 let acceptingAnswers = false;
@@ -20,7 +24,7 @@ let availableQuestions = [];
 
 let questions = [];
 
-fetch(`./json/${mostRecentTopic}.json`)
+fetch(`../json/${mostRecentTopic}.json`)
     .then( res => {
         return res.json();
     }).then(loadedQuestions => {
@@ -33,7 +37,7 @@ fetch(`./json/${mostRecentTopic}.json`)
     });
 
 //CONSTANTS
-const CORRECT_BONUS = 10;
+const CORRECT_BONUS = 1;
 const MAX_QUESTIONS = 10;
 
 startGame = () => {
@@ -42,7 +46,8 @@ startGame = () => {
     availableQuestions = [...questions];
     getNewQuestion();
     game.classList.remove('hidden');
-    loader.classList.add('hidden');
+    //loader.classList.add('hidden');
+    localStorage.setItem('questionCounter', questionCounter);
 };
 
 getNewQuestion = () => {
@@ -51,11 +56,12 @@ getNewQuestion = () => {
         localStorage.setItem('mostRecentScore', score);
         localStorage.setItem('mostRecentRecap', JSON.stringify(recapAnswer));
         //go to the end page
-        return window.location.assign('./end.html');
+        return window.location.assign('../pages/end.html');
     }
     questionCounter++;
 
-    progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
+    currentProgress.innerText = `Questão ${questionCounter}`;
+    progressText.innerText = `${questionCounter} de ${MAX_QUESTIONS}`;
     //Update the progress bar
     
     progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
@@ -95,7 +101,7 @@ choices.forEach(choice => {
             setTimeout( () => {
                 selectedChoice.parentElement.classList.remove(classToApply);
                 getNewQuestion();
-            }, 1000);
+            }, 200);
         
             const answersRecap = {
                 rQuestion: currentQuestion.question, 
@@ -105,18 +111,16 @@ choices.forEach(choice => {
                 r4: currentQuestion.choice4,
                 rUserAnswer: selectedAnswer,
                 rCorrectAnswer: currentQuestion.answer,
-                rExplanation: currentQuestion.explanation 
+                rExplanation: currentQuestion.explanation,
+                rQuestionCounter: questionCounter
             };
     
             recapAnswer.push(answersRecap);
     
-            console.log(answersRecap);
-            console.log(recapAnswer);
     });
 });
 
 incrementScore = num => {
     score += num;
-    scoreText.innerText = score;
+    localStorage.setItem('mostRecentScore', score);
 };
-

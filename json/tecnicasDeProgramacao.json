@@ -1,137 +1,137 @@
 [
     {
-        "question": "Qual é a principal diferença entre bancos de dados relacionais e não relacionais?",
-        "explanation": "b) Bancos de dados não relacionais não utilizam tabelas para armazenar dados. Isso ocorre porque os bancos de dados não relacionais usam modelos de dados diferentes dos relacionais, como documentos, grafos e chave-valor, que não requerem a estruturação de dados em tabelas.",
-        "choice1": "Bancos de dados relacionais são mais escaláveis.",
-        "choice2": "Bancos de dados não relacionais não utilizam tabelas para armazenar dados.", 
-        "choice3": "Bancos de dados não relacionais são mais eficientes em termos de espaço em disco.", 
-        "choice4": "Bancos de dados relacionais são mais fáceis de implementar",
-        "answer": 2
-    },
-    {
-        "question": "O que é um banco de dados orientado a documentos?",
-        "explanation": "b) Um banco de dados que armazena dados em documentos no formato JSON ou BSON. O banco de dados orientado a documentos é uma categoria de bancos de dados não relacionais que armazena dados em documentos semiestruturados no formato JSON ou BSON. Esses documentos podem conter campos e valores de diferentes tipos, incluindo arrays e subdocumentos.",
-        "choice1": "Um banco de dados que armazena dados em linhas e colunas.",
-        "choice2": "Um banco de dados que armazena dados em documentos no formato JSON ou BSON.", 
-        "choice3": "Um banco de dados que armazena dados em tabelas.", 
-        "choice4": "Um banco de dados que armazena dados em objetos.",
-        "answer": 2
-    },
-    {
-        "question": "Qual é a principal vantagem de usar um banco de dados orientado a grafos?",
-        "explanation": "d) Capacidade de modelar relações complexas entre dados. Os bancos de dados orientados a grafos são projetados para armazenar e consultar dados altamente conectados, como redes sociais, sistemas de recomendação e dados de geolocalização. Eles são eficientes na modelagem de relacionamentos complexos, como a influência de um usuário em outro usuário em uma rede social.",
-        "choice1": "Suporte a transações ACID.",
-        "choice2": "Alta escalabilidade.", 
-        "choice3": "Modelagem eficiente de dados relacionais.", 
-        "choice4": "Capacidade de modelar relações complexas entre dados.",
-        "answer": 4
-    },
-    {
-        "question": "O que é um banco de dados chave-valor?",
-        "explanation": "c) Um banco de dados que armazena dados como pares de chave e valor. Os bancos de dados chave-valor são projetados para armazenar e recuperar dados de forma rápida e eficiente, usando uma chave como índice para acessar o valor correspondente. Eles são usados principalmente em cenários que exigem alta escalabilidade e baixa latência, como caches e sistemas de sessão.",
-        "choice1": "Um banco de dados que armazena dados em tabelas.",
-        "choice2": "Um banco de dados que armazena dados em um único arquivo.", 
-        "choice3": "Um banco de dados que armazena dados como pares de chave e valor.", 
-        "choice4": "Um banco de dados que armazena dados em documentos.",
-        "answer": 3
-    },
-    {
-        "question": "Qual é a principal desvantagem de usar um banco de dados orientado a documentos?",
-        "explanation": "a) Modelagem ineficiente de dados relacionais. Os bancos de dados orientados a documentos são projetados para armazenar e consultar dados semiestruturados em documentos no formato JSON ou BSON.",
-        "choice1": "Modelagem ineficiente de dados relacionais.",
-        "choice2": "Baixa escalabilidade.", 
-        "choice3": "Baixo suporte a consultas complexas.", 
-        "choice4": "Baixa disponibilidade de ferramentas e recursos.",
+        "question": "Na linguagem de programação Python 3.x, para remover espaços em branco à direita e à esquerda de uma cadeia de caracteres, deve-se utilizar o método:",
+        "explanation": "Alternativa correta: A. O método strip() é utilizado em Python para remover espaços em branco à direita e à esquerda de uma cadeia de caracteres.",
+        "choice1": "strip()",
+        "choice2": "trim()", 
+        "choice3": "nospace()", 
+        "choice4": "clear()",
         "answer": 1
     },
     {
-        "question": "O que é um banco de dados não relacional?",
-        "explanation": "b) Um banco de dados que não utiliza linguagem SQL. Um banco de dados não relacional é uma categoria de banco de dados que não segue o modelo relacional tradicional. Em vez disso, eles são construídos para atender a requisitos específicos de aplicativos modernos, usando outros modelos de dados, como documentos, grafos ou chave-valor.",
-        "choice1": "Um banco de dados que armazena informações em tabelas relacionais.",
-        "choice2": "Um banco de dados que não utiliza linguagem SQL.", 
-        "choice3": "Um banco de dados que não suporta transações.", 
-        "choice4": "Um banco de dados que não pode ser escalado horizontalmente.",
-        "answer": 2
+        "question": "Podemos usar uma função() para verificar a documentação dos modulos funções classes palavras-chaves etc em python.",
+        "explanation": "Alternativa correta: D. A função help() é utilizada em Python para obter informações sobre módulos, funções, classes, palavras-chave etc.",
+        "choice1": "dir()",
+        "choice2": "type()", 
+        "choice3": "dell()", 
+        "choice4": "help()",
+        "answer": 4
     },
     {
-        "question": "Qual é a principal característica de um banco de dados orientado a documentos?",
-        "explanation": "c) Usa documentos estruturados em JSON ou BSON. Os bancos de dados orientados a documentos são projetados para armazenar documentos que contêm informações em um formato estruturado, geralmente em JSON ou BSON. Esses documentos são armazenados em coleções e são acessados por meio de chaves únicas.",
-        "choice1": "Armazena informações em tabelas relacionais.",
-        "choice2": " Usa linguagem SQL para consultas.", 
-        "choice3": "Usa documentos estruturados em JSON ou BSON.", 
-        "choice4": "Armazena informações em grafos.",
+        "question": "Qual das alternativas abaixo NÃO e um tipo de dados de Python?",
+        "explanation": "Alternativa correta: C. Em Python não existe um tipo de dado 'void'.",
+        "choice1": "complex",
+        "choice2": "dictionary", 
+        "choice3": "void", 
+        "choice4": "string",
         "answer": 3
     },
     {
-        "question": "Qual é a principal característica de um banco de dados orientado a chave-valor?",
-        "explanation": "d) Armazena informações como pares de chave e valor. Bancos de dados orientados a chave-valor são projetados para armazenar informações como pares de chave e valor, onde a chave é usada para identificar o valor associado. Esses bancos de dados são ideais para armazenar informações simples e altamente escaláveis.",
-        "choice1": "Usa linguagem SQL para consultas.",
-        "choice2": "Armazena informações em tabelas relacionais.", 
-        "choice3": "Usa documentos estruturados em JSON ou BSON.", 
-        "choice4": "Armazena informações como pares de chave e valor.",
-        "answer": 4
+        "question": "Em uma lista de Python: Lista1 [1,2,3,4]. Como nós podemos pegar o elemento 2?",
+        "explanation": "Alternativa correta: B. Lista1[1], pois em Python os índices começam em 0, então o elemento na posição 1 é o segundo elemento da lista.",
+        "choice1": "Lista1[0]",
+        "choice2": "Lista1[1]", 
+        "choice3": "Lista1[2]", 
+        "choice4": "Lista1[3]",
+        "answer": 2
     },
     {
-        "question": "Qual é a principal característica de um banco de dados orientado a grafos?",
-        "explanation": "d) Armazena informações em grafos. Um banco de dados orientado a grafos é projetado para armazenar informações como grafos, que consistem em nós e arestas, que representam as conexões entre os nós. Esses bancos de dados são especialmente úteis para armazenar dados relacionais e consultas complexas.",
-        "choice1": "Usa documentos estruturados em JSON ou BSON.",
-        "choice2": " Armazena informações em tabelas relacionais.", 
-        "choice3": "Usa linguagem SQL para consultas.", 
-        "choice4": "Armazena informações em grafos.",
-        "answer": 4
-    },
-    {
-        "question": "Qual é a principal característica de um banco de dados orientado a colunas?",
-        "explanation": "d) Armazena informações em colunas em vez de linhas. Bancos de dados orientados a colunas são projetados para armazenar informações em colunas, em vez de linhas. Esses bancos de dados são particularmente úteis para armazenar informações estruturadas que exigem consultas em colunas específicas.",
-        "choice1": "Armazena informações em tabelas relacionais.",
-        "choice2": "Usa linguagem SQL para consultas.", 
-        "choice3": "Armazena informações como pares de chave e valor.", 
-        "choice4": "Armazena informações em colunas em vez de linhas.",
-        "answer": 4
-    },
-    {
-        "question": "Qual é a principal diferença entre um banco de dados relacional e não relacional?",
-        "explanation": "a) Banco de dados não relacional não usa esquema. A principal diferença entre um banco de dados relacional e não relacional é que um banco de dados relacional utiliza um esquema definido para organizar e estruturar os dados em tabelas, enquanto um banco de dados não relacional não utiliza um esquema e pode armazenar dados de forma mais flexível, geralmente em documentos, pares de chave-valor ou gráficos.",
-        "choice1": "Banco de dados não relacional não usa esquema.",
-        "choice2": "Banco de dados não relacional usa SQL para consultas.", 
-        "choice3": "Banco de dados não relacional só é usado para armazenamento de dados não estruturados.", 
-        "choice4": "Não há diferença significativa entre um banco de dados relacional e não relacional.",
+        "question": "Qual o comando para exibir mensagem na tela em Python?",
+        "explanation": "Alternativa correta: A. Print('conteúdo'), pois o comando 'print' é utilizado para exibir uma mensagem na tela em Python.",
+        "choice1": "Print('conteúdo')",
+        "choice2": "Printf('conteúdo')", 
+        "choice3": "Escreval('')", 
+        "choice4": "Escreva('')",
         "answer": 1
     },
     {
-        "question": "Qual é um exemplo de banco de dados não relacional?",
-        "explanation": "c) MongoDB. O MongoDB é um exemplo de banco de dados não relacional, pois armazena dados em documentos sem uma estrutura predefinida.",
-        "choice1": "Oracle.",
-        "choice2": "MySQL.", 
-        "choice3": "MongoDB.", 
-        "choice4": "SQL Server.",
+        "question": "Qual o comando para escrever mensagem na tela em linguagem C?",
+        "explanation": "Alternativa correta: B. Printf('conteúdo'), pois o comando 'printf' é utilizado para escrever uma mensagem na tela em C.",
+        "choice1": "Print('conteúdo')",
+        "choice2": "Printf('conteúdo')", 
+        "choice3": "Escreval('')", 
+        "choice4": "Escreva('')",
+        "answer": 2
+    },
+    {
+        "question": "Qual é a forma correta de adicionar uma biblioteca em linguagem C?",
+        "explanation": "Alternativa correta: A. #include<stdio.h>, pois para adicionar uma biblioteca em C é necessário utilizar o comando #include seguido do nome da biblioteca, entre '< >' para bibliotecas padrão do sistema ou entre ' ' para bibliotecas criadas pelo usuário.",
+        "choice1": "#include<stdio.h>",
+        "choice2": "include<stdio.h>", 
+        "choice3": "#include<stdio>", 
+        "choice4": "#include<stdio.t>",
+        "answer": 1
+    },
+    {
+        "question": "Qual a finalidade do comando void em linguagem C?",
+        "explanation": "Alternativa correta: C. Retornar uma função, pois o comando 'void' indica que a função não retorna nenhum valor.",
+        "choice1": "Deletar",
+        "choice2": "Somar", 
+        "choice3": "Retorno de uma função", 
+        "choice4": "Escrever",
         "answer": 3
     },
     {
-        "question": "Qual das seguintes afirmações é verdadeira sobre bancos de dados não relacionais?",
-        "explanation": "d) Eles são altamente flexíveis em termos de estruturação de dados. Ao contrário dos bancos de dados relacionais, que requerem uma estrutura de dados pré-definida e esquematizada, os bancos de dados não relacionais são projetados para serem altamente flexíveis e permitirem uma grande variedade de esquemas de dados.",
-        "choice1": "Eles são baseados em esquemas rígidos e predefinidos.",
-        "choice2": "Eles não são adequados para armazenar dados não estruturados.", 
-        "choice3": "Eles usam linguagem SQL para consulta de dados.", 
-        "choice4": "Eles são altamente flexíveis em termos de estruturação de dados.",
-        "answer": 4
+        "question": "Qual o comando para escrever mensagem na tela em Java?",
+        "explanation": "Alternativa correta: A. System.out.println('conteudo'), pois o comando 'System.out.println' é utilizado para escrever uma mensagem na tela em Java.",
+        "choice1": "System.out.println('conteudo')",
+        "choice2": "System.print('conteudo')", 
+        "choice3": "System.out('conteudo')", 
+        "choice4": "System.out.print('conteudo')",
+        "answer": 1
     },
     {
-        "question": "Quais dos seguintes tipos de bancos de dados são exemplos de bancos de dados não relacionais?",
-        "explanation": "b) MongoDB e Cassandra. O MongoDB e o Cassandra são dois exemplos populares de bancos de dados não relacionais, projetados para escalabilidade horizontal e flexibilidade de dados.",
-        "choice1": "Oracle e Microsoft SQL Server.",
-        "choice2": "MongoDB e Cassandra.", 
-        "choice3": "MySQL e PostgreSQL.", 
-        "choice4": "SQLite e Firebird.",
+        "question": "Para que serve um return em java?",
+        "explanation": "Alternativa correta: A. Retornar algo dentro de um método, pois o comando 'return' é utilizado para retornar um valor dentro de um método em Java.",
+        "choice1": "Retornar algo dentro de um método",
+        "choice2": "Retornar soma", 
+        "choice3": "Apagar", 
+        "choice4": "Escrever",
+        "answer": 1
+    },
+    {
+        "question": "Qual devo utilizar para realizar o retorno de numero inteiro em linguagem C?",
+        "explanation": "Alternativa correta: A. int main(), pois o tipo de retorno da função main em C é int.",
+        "choice1": "int main()",
+        "choice2": "int main", 
+        "choice3": "void main()", 
+        "choice4": "void man",
+        "answer": 1
+    },
+    {
+        "question": "Em relação à linguagem de programação Python, é INCORRETO afirmar que:",
+        "explanation": "Alternativa correta: C. Os blocos de código são delimitados pelo uso das chaves: { e } para início e fim do bloco, respectivamente, pois em Python os blocos de código são delimitados pelo recuo (indentação) e não pelo uso das chaves.",
+        "choice1": "O tipo da variável pode ser inferido pelo interpretador em tempo de execução.",
+        "choice2": "É necessário converter explicitamente o tipo da variável antes de uma operação entre tipos não compatíveis.", 
+        "choice3": "Os blocos de código são delimitados pelo uso das chaves: { e } para início e fim do bloco, respectivamente.", 
+        "choice4": "É uma linguagem orientada a objeto na qual os atributos e os métodos podem ser acessados usando o ponto (.).",
+        "answer": 3
+    },
+    {
+        "question": "Qual é a função do comando range() em Python?",
+        "explanation": "b) Criar uma lista de números sequenciais. O comando range() em Python é usado para criar uma sequência de números. A sintaxe é range(start, stop, step), onde start é o número inicial da sequência, stop é o número final (não incluso) e step é o intervalo entre os números. Por exemplo, range(1, 10, 2) irá criar uma sequência de números ímpares de 1 a 9.",
+        "choice1": "Calcular a soma de uma lista de números.",
+        "choice2": "Criar uma lista de números sequenciais.", 
+        "choice3": "Encontrar o maior número em uma lista.", 
+        "choice4": "Ordenar uma lista em ordem crescente.",
         "answer": 2
     },
     {
-        "question": "Qual das seguintes afirmações é verdadeira sobre o modelo de dados em um banco de dados não relacional?",
-        "explanation": "b) Ele pode incluir documentos, gráficos e outros tipos de dados não estruturados. Os bancos de dados não relacionais podem incluir uma grande variedade de tipos de dados, incluindo documentos, gráficos, dados hierárquicos e outros tipos de dados não estruturados.",
-        "choice1": "Ele é estritamente baseado em tabelas relacionais.",
-        "choice2": "Ele pode incluir documentos, gráficos e outros tipos de dados não estruturados.", 
-        "choice3": "Ele é altamente normalizado para garantir a integridade dos dados.", 
-        "choice4": "Ele é limitado à consulta de dados usando a linguagem SQL.",
+        "question": "O que o comando zip() faz em Python?",
+        "explanation": "b) Combina duas ou mais listas em uma lista de tuplas. O comando zip() em Python é usado para combinar duas ou mais listas em uma lista de tuplas. Cada tupla contém um elemento de cada lista. Por exemplo, zip([1, 2, 3], ['a', 'b', 'c']) irá retornar [(1, 'a'), (2, 'b'), (3, 'c')].",
+        "choice1": "Cria um arquivo compactado com vários arquivos.",
+        "choice2": "Combina duas ou mais listas em uma lista de tuplas.", 
+        "choice3": "Calcula a média de uma lista de números.", 
+        "choice4": "Retorna o índice de um elemento em uma lista.",
         "answer": 2
+    },
+    {
+        "question": "O que o método strip() faz em Python?",
+        "explanation": "a) Remove espaços em branco no início e no fim de uma string.  método strip() em Python é usado para remover espaços em branco no início e no fim de uma string. Ele também pode ser usado com um argumento para remover outros caracteres do início e do fim da string. Por exemplo, s = ' hello ', s.strip() irá retornar 'hello'.",
+        "choice1": "Remove espaços em branco no início e no fim de uma string.",
+        "choice2": "Remove um elemento específico de uma lista.", 
+        "choice3": "Converte uma string em uma lista.", 
+        "choice4": "Substitui um caractere por outro em uma string.",
+        "answer": 1
     }
 ]

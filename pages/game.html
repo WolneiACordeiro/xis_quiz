@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Quiz Game</title>
+        <link rel="stylesheet" href="../css/style.css" />
+        <link rel="stylesheet" href="../css/game.css" />
+        <link rel="icon" href="../imgs/logo-app.ico">
+    </head>
+<body>
+    <main class="container-game">
+        <div class="background">
+            <header class="container-user-about">
+                <div class="hello-name">
+                    <h1 id="showUserName" class="showName"></h1>
+                </div>
+
+                <h2 id="showTest" class="showTest"></h2>
+                <p class="keepCalm">Faça a prova com calma, tenha certeza de suas respostas,
+                    nenhuma questão respondida poderá ser retornada.</p>
+            </header>
+        </div>
+
+        <section class="space-game">
+            <div class="about-question" id="game">
+                <div id="hud-item" class="hud-item">
+                    <div class="currentQuestions">
+                        <h1 class="currentProgress" id="currentProgress"></h1>
+                        <p id="progressText" class="hud-prefix">
+                        </p>
+                    </div>
+                    
+                    <div id="progressBar">
+                        <div id="progressBarFull"></div>
+                    </div>
+                    <!-- <h1 class="hud-main-text" id="questionCounter"></h1>-->
+                </div>
+
+                <h2 id="question" class="question"></h2>
+
+                <div class="choices">
+                    <div class="choice-container">
+                        <p class="choice-prefix">
+                            A
+                        </p>
+                        <p class="choice-text" data-number="1">
+                        </p>
+                    </div>
+                    <div class="choice-container">
+                        <p class="choice-prefix">
+                            B
+                        </p>
+                        <p class="choice-text" data-number="2">
+                            
+                        </p>
+                    </div>
+                    <div class="choice-container">
+                        <p class="choice-prefix">
+                            C
+                        </p>
+                        <p class="choice-text" data-number="3">
+                            
+                        </p>
+                    </div>
+                    <div class="choice-container">
+                        <p class="choice-prefix">
+                            D
+                        </p>
+                        <p class="choice-text" data-number="4">
+                            
+                        </p>
+                    </div>
+                </div>
+
+                <div class="warning">
+                    <svg width="26" height="28" viewBox="0 0 26 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 17.1747V10.8253C1 8.68932 2.136 6.71465 3.98133 5.63998L9.98133 2.14798C11.8467 1.06265 14.152 1.06265 16.0173 2.14798L22.0173 5.63998C23.864 6.71465 25 8.68932 25 10.8253V17.1747C25 19.3107 23.864 21.2853 22.0187 22.36L16.0187 25.852C14.1533 26.9373 11.848 26.9373 9.98267 25.852L3.98267 22.36C2.136 21.2853 1 19.3107 1 17.1747V17.1747Z" stroke="#B8004D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        
+                        <div class="important">
+                            <p>Importante! <br>
+                                Ao clicar na opção, você estará respondendo a pergunta em questão, não será possível retornar.</p>
+                        </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Feito com <svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M10 18.35L8.55 17.03C3.4 12.36 0 9.27 0 5.5C0 2.41 2.42 0 5.5 0C7.24 0 8.91 0.81 10 2.08C11.09 0.81 12.76 0 14.5 0C17.58 0 20 2.41 20 5.5C20 9.27 16.6 12.36 11.45 17.03L10 18.35Z" fill="white"/>
+            </svg> | 2023
+            </p>
+    </footer>
+
+    <script src="../js/game.js"></script>
+</body>
+</html>

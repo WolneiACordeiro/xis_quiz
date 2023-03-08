@@ -1,137 +1,137 @@
 [
     {
-        "question": "Qual é a principal diferença entre bancos de dados relacionais e não relacionais?",
-        "explanation": "b) Bancos de dados não relacionais não utilizam tabelas para armazenar dados. Isso ocorre porque os bancos de dados não relacionais usam modelos de dados diferentes dos relacionais, como documentos, grafos e chave-valor, que não requerem a estruturação de dados em tabelas.",
-        "choice1": "Bancos de dados relacionais são mais escaláveis.",
-        "choice2": "Bancos de dados não relacionais não utilizam tabelas para armazenar dados.", 
-        "choice3": "Bancos de dados não relacionais são mais eficientes em termos de espaço em disco.", 
-        "choice4": "Bancos de dados relacionais são mais fáceis de implementar",
-        "answer": 2
-    },
-    {
-        "question": "O que é um banco de dados orientado a documentos?",
-        "explanation": "b) Um banco de dados que armazena dados em documentos no formato JSON ou BSON. O banco de dados orientado a documentos é uma categoria de bancos de dados não relacionais que armazena dados em documentos semiestruturados no formato JSON ou BSON. Esses documentos podem conter campos e valores de diferentes tipos, incluindo arrays e subdocumentos.",
-        "choice1": "Um banco de dados que armazena dados em linhas e colunas.",
-        "choice2": "Um banco de dados que armazena dados em documentos no formato JSON ou BSON.", 
-        "choice3": "Um banco de dados que armazena dados em tabelas.", 
-        "choice4": "Um banco de dados que armazena dados em objetos.",
-        "answer": 2
-    },
-    {
-        "question": "Qual é a principal vantagem de usar um banco de dados orientado a grafos?",
-        "explanation": "d) Capacidade de modelar relações complexas entre dados. Os bancos de dados orientados a grafos são projetados para armazenar e consultar dados altamente conectados, como redes sociais, sistemas de recomendação e dados de geolocalização. Eles são eficientes na modelagem de relacionamentos complexos, como a influência de um usuário em outro usuário em uma rede social.",
-        "choice1": "Suporte a transações ACID.",
-        "choice2": "Alta escalabilidade.", 
-        "choice3": "Modelagem eficiente de dados relacionais.", 
-        "choice4": "Capacidade de modelar relações complexas entre dados.",
-        "answer": 4
-    },
-    {
-        "question": "O que é um banco de dados chave-valor?",
-        "explanation": "c) Um banco de dados que armazena dados como pares de chave e valor. Os bancos de dados chave-valor são projetados para armazenar e recuperar dados de forma rápida e eficiente, usando uma chave como índice para acessar o valor correspondente. Eles são usados principalmente em cenários que exigem alta escalabilidade e baixa latência, como caches e sistemas de sessão.",
-        "choice1": "Um banco de dados que armazena dados em tabelas.",
-        "choice2": "Um banco de dados que armazena dados em um único arquivo.", 
-        "choice3": "Um banco de dados que armazena dados como pares de chave e valor.", 
-        "choice4": "Um banco de dados que armazena dados em documentos.",
+        "question": "O que é um vetor coluna?",
+        "explanation": "c) Um vetor com várias entradas colocadas na vertical. A definição de um vetor coluna é um vetor com várias entradas colocadas na vertical, o que o diferencia do vetor linha.",
+        "choice1": "Um vetor com apenas uma entrada.",
+        "choice2": "Um vetor com várias entradas colocadas na horizontal.", 
+        "choice3": "Um vetor com várias entradas colocadas na vertical.", 
+        "choice4": "Um vetor com entradas aleatórias.",
         "answer": 3
     },
     {
-        "question": "Qual é a principal desvantagem de usar um banco de dados orientado a documentos?",
-        "explanation": "a) Modelagem ineficiente de dados relacionais. Os bancos de dados orientados a documentos são projetados para armazenar e consultar dados semiestruturados em documentos no formato JSON ou BSON.",
-        "choice1": "Modelagem ineficiente de dados relacionais.",
-        "choice2": "Baixa escalabilidade.", 
-        "choice3": "Baixo suporte a consultas complexas.", 
-        "choice4": "Baixa disponibilidade de ferramentas e recursos.",
+        "question": "Qual é o determinante de uma matriz 2x2 com elementos [a b; c d]?",
+        "explanation": "b) ad - bc. O determinante de uma matriz 2x2 é calculado por ad - bc.",
+        "choice1": "a + b + c + d.",
+        "choice2": "ad - bc.", 
+        "choice3": "ab - cd.", 
+        "choice4": "2ad - 2bc.",
+        "answer": 2
+    },
+    {
+        "question": "O que é um espaço vetorial?",
+        "explanation": "a) Um conjunto de vetores. Um espaço vetorial é um conjunto de vetores que atendem a certas propriedades, como a capacidade de serem somados e multiplicados por escalares.",
+        "choice1": "Um conjunto de vetores.",
+        "choice2": "Um conjunto de matrizes.", 
+        "choice3": "Um conjunto de funções.", 
+        "choice4": "Um conjunto de escalares.",
         "answer": 1
     },
     {
-        "question": "O que é um banco de dados não relacional?",
-        "explanation": "b) Um banco de dados que não utiliza linguagem SQL. Um banco de dados não relacional é uma categoria de banco de dados que não segue o modelo relacional tradicional. Em vez disso, eles são construídos para atender a requisitos específicos de aplicativos modernos, usando outros modelos de dados, como documentos, grafos ou chave-valor.",
-        "choice1": "Um banco de dados que armazena informações em tabelas relacionais.",
-        "choice2": "Um banco de dados que não utiliza linguagem SQL.", 
-        "choice3": "Um banco de dados que não suporta transações.", 
-        "choice4": "Um banco de dados que não pode ser escalado horizontalmente.",
-        "answer": 2
-    },
-    {
-        "question": "Qual é a principal característica de um banco de dados orientado a documentos?",
-        "explanation": "c) Usa documentos estruturados em JSON ou BSON. Os bancos de dados orientados a documentos são projetados para armazenar documentos que contêm informações em um formato estruturado, geralmente em JSON ou BSON. Esses documentos são armazenados em coleções e são acessados por meio de chaves únicas.",
-        "choice1": "Armazena informações em tabelas relacionais.",
-        "choice2": " Usa linguagem SQL para consultas.", 
-        "choice3": "Usa documentos estruturados em JSON ou BSON.", 
-        "choice4": "Armazena informações em grafos.",
-        "answer": 3
-    },
-    {
-        "question": "Qual é a principal característica de um banco de dados orientado a chave-valor?",
-        "explanation": "d) Armazena informações como pares de chave e valor. Bancos de dados orientados a chave-valor são projetados para armazenar informações como pares de chave e valor, onde a chave é usada para identificar o valor associado. Esses bancos de dados são ideais para armazenar informações simples e altamente escaláveis.",
-        "choice1": "Usa linguagem SQL para consultas.",
-        "choice2": "Armazena informações em tabelas relacionais.", 
-        "choice3": "Usa documentos estruturados em JSON ou BSON.", 
-        "choice4": "Armazena informações como pares de chave e valor.",
-        "answer": 4
-    },
-    {
-        "question": "Qual é a principal característica de um banco de dados orientado a grafos?",
-        "explanation": "d) Armazena informações em grafos. Um banco de dados orientado a grafos é projetado para armazenar informações como grafos, que consistem em nós e arestas, que representam as conexões entre os nós. Esses bancos de dados são especialmente úteis para armazenar dados relacionais e consultas complexas.",
-        "choice1": "Usa documentos estruturados em JSON ou BSON.",
-        "choice2": " Armazena informações em tabelas relacionais.", 
-        "choice3": "Usa linguagem SQL para consultas.", 
-        "choice4": "Armazena informações em grafos.",
-        "answer": 4
-    },
-    {
-        "question": "Qual é a principal característica de um banco de dados orientado a colunas?",
-        "explanation": "d) Armazena informações em colunas em vez de linhas. Bancos de dados orientados a colunas são projetados para armazenar informações em colunas, em vez de linhas. Esses bancos de dados são particularmente úteis para armazenar informações estruturadas que exigem consultas em colunas específicas.",
-        "choice1": "Armazena informações em tabelas relacionais.",
-        "choice2": "Usa linguagem SQL para consultas.", 
-        "choice3": "Armazena informações como pares de chave e valor.", 
-        "choice4": "Armazena informações em colunas em vez de linhas.",
-        "answer": 4
-    },
-    {
-        "question": "Qual é a principal diferença entre um banco de dados relacional e não relacional?",
-        "explanation": "a) Banco de dados não relacional não usa esquema. A principal diferença entre um banco de dados relacional e não relacional é que um banco de dados relacional utiliza um esquema definido para organizar e estruturar os dados em tabelas, enquanto um banco de dados não relacional não utiliza um esquema e pode armazenar dados de forma mais flexível, geralmente em documentos, pares de chave-valor ou gráficos.",
-        "choice1": "Banco de dados não relacional não usa esquema.",
-        "choice2": "Banco de dados não relacional usa SQL para consultas.", 
-        "choice3": "Banco de dados não relacional só é usado para armazenamento de dados não estruturados.", 
-        "choice4": "Não há diferença significativa entre um banco de dados relacional e não relacional.",
+        "question": "Qual é o resultado da multiplicação de uma matriz m x n por uma matriz n x p?",
+        "explanation": "a) Uma matriz m x p. Quando uma matriz m x n é multiplicada por uma matriz n x p, o resultado é uma matriz m x p.",
+        "choice1": "Uma matriz m x p.",
+        "choice2": "Uma matriz n x p.", 
+        "choice3": "Uma matriz m x n.", 
+        "choice4": "Não é possível multiplicar essas matrizes.",
         "answer": 1
     },
     {
-        "question": "Qual é um exemplo de banco de dados não relacional?",
-        "explanation": "c) MongoDB. O MongoDB é um exemplo de banco de dados não relacional, pois armazena dados em documentos sem uma estrutura predefinida.",
-        "choice1": "Oracle.",
-        "choice2": "MySQL.", 
-        "choice3": "MongoDB.", 
-        "choice4": "SQL Server.",
-        "answer": 3
+        "question": "O que é uma matriz diagonal?",
+        "explanation": "b) Uma matriz com elementos diferentes de zero apenas na diagonal principal. Uma matriz diagonal é uma matriz com elementos diferentes de zero apenas na diagonal principal e zero em todas as outras entradas.",
+        "choice1": "Uma matriz com elementos na diagonal principal iguais a zero.",
+        "choice2": "Uma matriz com elementos diferentes de zero apenas na diagonal principal.", 
+        "choice3": "Uma matriz com elementos iguais a zero fora da diagonal principal.", 
+        "choice4": "Uma matriz com elementos iguais a zero em todas as posições.",
+        "answer": 2
     },
     {
-        "question": "Qual das seguintes afirmações é verdadeira sobre bancos de dados não relacionais?",
-        "explanation": "d) Eles são altamente flexíveis em termos de estruturação de dados. Ao contrário dos bancos de dados relacionais, que requerem uma estrutura de dados pré-definida e esquematizada, os bancos de dados não relacionais são projetados para serem altamente flexíveis e permitirem uma grande variedade de esquemas de dados.",
-        "choice1": "Eles são baseados em esquemas rígidos e predefinidos.",
-        "choice2": "Eles não são adequados para armazenar dados não estruturados.", 
-        "choice3": "Eles usam linguagem SQL para consulta de dados.", 
-        "choice4": "Eles são altamente flexíveis em termos de estruturação de dados.",
+        "question": "O que é um sistema linear?",
+        "explanation": "a) Um conjunto de equações lineares. Um sistema linear é um conjunto de equações lineares envolvendo as mesmas variáveis.",
+        "choice1": "Um conjunto de equações lineares.",
+        "choice2": "Um conjunto de funções não lineares.", 
+        "choice3": "Um conjunto de vetores.", 
+        "choice4": "Um conjunto de matrizes.",
+        "answer": 1
+    },
+    {
+        "question": "Qual é a inversa da matriz identidade?",
+        "explanation": "a) A própria matriz identidade. A matriz identidade é a única matriz que é sua própria inversa.",
+        "choice1": "A própria matriz identidade.",
+        "choice2": "Uma matriz com todas as entradas iguais a zero.", 
+        "choice3": "Uma matriz com todas as entradas iguais a um.", 
+        "choice4": "Não existe inversa para a matriz identidade.",
+        "answer": 1
+    },
+    {
+        "question": "O que é um vetor linearmente dependente?",
+        "explanation": "b) Um vetor que pode ser expresso como uma combinação linear de outros vetores. Um vetor é linearmente dependente se pode ser expresso como uma combinação linear de outros vetores. Em outras palavras, ele não é linearmente independente e pode ser escrito como uma combinação de outros vetores no espaço.",
+        "choice1": "Um vetor que não pode ser expresso como uma combinação linear de outros vetores.",
+        "choice2": "Um vetor que pode ser expresso como uma combinação linear de outros vetores.", 
+        "choice3": "Um vetor com magnitude zero.", 
+        "choice4": "Um vetor com magnitude infinita.",
+        "answer": 2
+    },
+    {
+        "question": "O que é um produto interno?",
+        "explanation": "d) Um produto escalar entre vetores. O produto interno é uma operação que leva dois vetores como entrada e retorna um escalar como resultado. É também chamado de produto escalar ou produto ponto.",
+        "choice1": "Um produto entre matrizes.",
+        "choice2": "Um produto entre funções.", 
+        "choice3": "Um produto vetorial entre vetores.", 
+        "choice4": "Um produto escalar entre vetores.",
         "answer": 4
     },
     {
-        "question": "Quais dos seguintes tipos de bancos de dados são exemplos de bancos de dados não relacionais?",
-        "explanation": "b) MongoDB e Cassandra. O MongoDB e o Cassandra são dois exemplos populares de bancos de dados não relacionais, projetados para escalabilidade horizontal e flexibilidade de dados.",
-        "choice1": "Oracle e Microsoft SQL Server.",
-        "choice2": "MongoDB e Cassandra.", 
-        "choice3": "MySQL e PostgreSQL.", 
-        "choice4": "SQLite e Firebird.",
+        "question": "O que é a transposta de uma matriz?",
+        "explanation": "c) A matriz obtida trocando as colunas pelas linhas. A transposta de uma matriz é uma operação que transforma as colunas em linhas e as linhas em colunas.",
+        "choice1": "A matriz obtida invertendo todas as entradas.",
+        "choice2": "A matriz obtida trocando as entradas da diagonal principal.", 
+        "choice3": "A matriz obtida trocando as colunas pelas linhas.", 
+        "choice4": "Não existe transposta de uma matriz.",
+        "answer": 3
+    },
+    {
+        "question": "O que é um subespaço vetorial?",
+        "explanation": "b) Um subconjunto de um espaço vetorial que é em si um espaço vetorial. Um subespaço vetorial é um subconjunto de um espaço vetorial que é em si um espaço vetorial, ou seja, ele contém todos os vetores que atendem às propriedades do espaço vetorial.",
+        "choice1": "Um conjunto de vetores que não atende às propriedades de um espaço vetorial.",
+        "choice2": "Um subconjunto de um espaço vetorial que é em si um espaço vetorial.", 
+        "choice3": "Um conjunto de vetores linearmente dependentes.", 
+        "choice4": "Um conjunto de vetores ortogonais.",
         "answer": 2
     },
     {
-        "question": "Qual das seguintes afirmações é verdadeira sobre o modelo de dados em um banco de dados não relacional?",
-        "explanation": "b) Ele pode incluir documentos, gráficos e outros tipos de dados não estruturados. Os bancos de dados não relacionais podem incluir uma grande variedade de tipos de dados, incluindo documentos, gráficos, dados hierárquicos e outros tipos de dados não estruturados.",
-        "choice1": "Ele é estritamente baseado em tabelas relacionais.",
-        "choice2": "Ele pode incluir documentos, gráficos e outros tipos de dados não estruturados.", 
-        "choice3": "Ele é altamente normalizado para garantir a integridade dos dados.", 
-        "choice4": "Ele é limitado à consulta de dados usando a linguagem SQL.",
+        "question": "O que é a matriz inversa?",
+        "explanation": "a) Uma matriz que pode ser multiplicada pela matriz original para obter a matriz identidade. A matriz inversa é uma matriz que, quando multiplicada pela matriz original, resulta na matriz identidade.",
+        "choice1": "Uma matriz que pode ser multiplicada pela matriz original para obter a matriz identidade.",
+        "choice2": "Uma matriz que é o resultado da multiplicação de duas matrizes.", 
+        "choice3": "Uma matriz que tem apenas entradas iguais a zero.", 
+        "choice4": "Uma matriz que não tem inversa.",
+        "answer": 1
+    },
+    {
+        "question": "O que é um espaço nulo?",
+        "explanation": "c) Um conjunto de vetores que satisfazem uma equação linear homogênea. O espaço nulo de uma matriz é o conjunto de vetores que satisfazem a equação linear homogênea Ax = 0, onde A é a matriz e x é o vetor de incógnitas.",
+        "choice1": "Um subconjunto do espaço vetorial que contém apenas o vetor nulo.",
+        "choice2": "Um subespaço vetorial que contém apenas o vetor nulo.", 
+        "choice3": "Um conjunto de vetores que satisfazem uma equação linear homogênea.", 
+        "choice4": "Um conjunto de vetores que satisfazem uma equação linear não homogênea.",
+        "answer": 3
+    },
+    {
+        "question": "O que é um autovalor de uma matriz?",
+        "explanation": "b) Um escalar que, quando multiplicado por um vetor próprio, resulta em um múltiplo do mesmo vetor. Um autovalor de uma matriz é um escalar que, quando multiplicado por um vetor próprio da matriz, resulta em um múltiplo do mesmo vetor.",
+        "choice1": "Um vetor próprio da matriz.",
+        "choice2": "Um escalar que, quando multiplicado por um vetor próprio, resulta em um múltiplo do mesmo vetor.", 
+        "choice3": "Um escalar que, quando multiplicado pela matriz, resulta na matriz identidade.", 
+        "choice4": "Um escalar que, quando adicionado à matriz, resulta em uma matriz simétrica.",
         "answer": 2
+    },
+    {
+        "question": "O que é um vetor próprio de uma matriz?",
+        "explanation": "d) Um vetor que, quando multiplicado pela matriz, resulta em um múltiplo do mesmo vetor. Um vetor próprio de uma matriz é um vetor não nulo que, quando multiplicado pela matriz, resulta em um múltiplo do mesmo vetor. Em outras palavras, é um vetor que não muda de direção após a multiplicação pela matriz.",
+        "choice1": "Um vetor que é a soma de dois ou mais vetores.",
+        "choice2": "Um vetor que é ortogonal a todos os outros vetores da matriz.", 
+        "choice3": "Um vetor que é paralelo a todos os outros vetores da matriz.", 
+        "choice4": "Um vetor que, quando multiplicado pela matriz, resulta em um múltiplo do mesmo vetor.",
+        "answer": 4
     }
 ]

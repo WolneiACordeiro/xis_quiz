@@ -1,34 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Quick Quiz</title>
-  <link rel="stylesheet" href="./css/app.css">
-  <link href="./css/video-js.css" rel="stylesheet" />
-</head>
-
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Xis</title>
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/index.css" />
+        <link rel="icon" href="./imgs/logo-app.ico">
+    </head>
 <body>
-  <div class="container">
-    <div id="home" class="flex-center flex-column">
-      <h1>
-        Quick Quiz!
-      </h1>
-
-      <video
+    <main class="container">
+        <div class="background flex-full-center">
+            <img src="imgs/logo-app.png" alt="Xis">
+        </div>
+        <section class="space">
+            <div class="about">
+                <div class="video">
+                    <video
     id="my-video"
     class="video-js"
     controls
     preload="auto"
     width="640"
     height="264"
-    poster="./img/video_thumb.jpg"
+    poster="./imgs/video_thumb.jpg"
     data-setup="{}"
   >
     <source src="./video/video_main.mp4" type="video/mp4" />
-    <!--source src="./video/video_thumb.webm" type="video/webm" /-->
     <p class="vjs-no-js">
       To view this video please enable JavaScript, and consider upgrading to a
       web browser that
@@ -37,38 +36,58 @@
       >
     </p>
   </video>
+                </div>
 
-      <form action="">
-        <input 
-        type="text"
-        name="username"
-        id="username"
-        placeholder="username"
-        />
+                <form class="select">
+                    <div class="usernameInput">
+                        <label>Nome</label>
+                        <input type="text"
+                        name="username"
+                        id="username"
+                        placeholder="Digite seu nome"
+                        />
+                    </div>
 
-        <select name="topic" id="topic" onchange="saveTopicName()">
-          <option value="bancoNaoRelacional" data-number="1">Banco de Dados não Relacional</option>
-          <option value="algebraLinear" data-number="2">Álgebra Linear</option>
-          <option value="tecnicasDeProgramacao" data-number="3">Técnicas de Programação</option>
-        </select><br>
+                    <div class="selectTest">
+                        <select 
+                        name="topic" 
+                        id="topic"
+                        class="topic"
+                        onchange="saveTopicName()">
+                          <option value="bancoNaoRelacional">Banco de Dados não Relacional</option>
+                          <option value="algebraLinear">Álgebra Linear</option>
+                          <option value="tecnicasDeProgramacao">Técnicas de Programação</option>
+                        </select><br>
+                
+                        <button 
+                        type="submit"
+                        class="btn-full"
+                        id="saveUserBtn"
+                        onclick="saveUserName(event)"
+                        disabled
+                        >Começar a prova</button>
 
-        <button type="submit"
-        class="btn"
-        id="saveUserBtn"
-        onclick="saveUserName(event)"
-        disabled
-        >Play</button>
-    </form>
-    <a class="btn" href="./highscores.html">High Scores</a>
-    <div id="topicInfos">
+                        <div class="highScore">
+                            <a class="btn-empty" href="pages/highscores.html">Melhores notas</a>
+                        </div>
+                    </div>
 
-    </div>
-      
-    </div>
-  </div>
+                    <div id="topicInfos">
 
-  <script src="./js/index.js"></script>
-  <script src="./js/video.min.js"></script>
+                    </div>
+                    
+                </form>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <p>Feito com <svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10 18.35L8.55 17.03C3.4 12.36 0 9.27 0 5.5C0 2.41 2.42 0 5.5 0C7.24 0 8.91 0.81 10 2.08C11.09 0.81 12.76 0 14.5 0C17.58 0 20 2.41 20 5.5C20 9.27 16.6 12.36 11.45 17.03L10 18.35Z" fill="white"/>
+                </svg> | 2023
+                </p>
+        </footer>
+    </main>
+
+    <script src="./js/index.js"></script>
 </body>
-
 </html>

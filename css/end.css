@@ -1,0 +1,228 @@
+.container-game {
+    width: 100vw;
+    max-width: 100%;
+    min-height: 100vh;
+}
+
+.container-user-about {
+    width: 86rem;
+    height: auto;
+    margin: 0 auto;
+    padding: 5rem 0;
+}
+
+.hello-name {
+    max-width: 40rem;
+    padding: 1rem;
+    border-radius: 5rem;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.showName {
+    font-size: 4rem;
+    color: var(--colorBranco);
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.showTest {
+    font-size: 3.2rem;
+    color: var(--colorBranco);
+    font-weight: 400;
+    margin-top: 1rem;
+}
+
+.finale {
+    max-width: 50rem;
+    font-size: 1.6rem;
+    color: var(--colorBranco);
+}
+
+/* result */
+.result {
+    width: 90rem;
+    max-width: 100%;
+    min-height: 32rem;
+    margin: 0 auto;
+    background-color: var(--bgBranco);
+    border: 2rem solid var(--bgVermelhoVinho);
+    border-radius: .5rem;
+    padding: 2rem;
+    /* box-shadow: 0 0.1rem 1rem 0.1rem #333; */
+}
+
+.result h1 {
+    font-size: 3.2rem;
+}
+
+/* pontuação */
+.points {
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    border-top: .2rem solid black;
+    border-bottom: .2rem solid black;
+    padding: 2rem 0;
+}
+
+.hits-percent {
+    width: 100%;
+    /* margin: 1rem 0; */
+}
+
+.card-hits {
+    display: flex;
+    gap: 3rem;
+    width: 100%;
+    height: 50%;
+}
+
+.card-hit {
+    min-width: 10rem;
+    height: 8rem;
+    padding: .5rem;
+    background-color: var(--bgVermelhoFino);
+    border-radius: .5rem;
+    font-size: 2.4rem;
+    color: var(--colorTextBlue);
+    text-align: center;
+    box-shadow: 0.1rem 0.1rem 1rem 0.1rem #999;
+}
+
+.remake-end {
+    align-items: flex-end;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    gap: 3rem;
+}
+
+.btn-full {
+    width: 23rem;
+    height: 5rem;
+    padding: 1rem;
+    color: var(--colorBranco);
+    background-color: var(--bgVermelhoVinho);
+    font-size: 1.6rem;
+    cursor: pointer;
+    border-radius: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-empty {
+    width: 23rem;
+    height: 5rem;
+    padding: 1rem;
+    color: var(--colorVermelhoVinho);
+    background-color: var(--bgBranco);
+    border: .2rem solid var(--bgVermelhoVinho);
+    border-radius: .5rem;
+    font-size: 1.6rem;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.final-pontuation {
+    width: 50%;
+    max-height: 100%;
+    background-color: var(--bgVermelhoVinho);
+    border-radius: .5rem;
+    /* margin-top: 1rem; */
+    padding: 2rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.final-pontuation p {
+    color: var(--colorBranco);
+    font-size: 2.4rem;
+    font-weight: 400;
+}
+
+#finalScore {
+    color: var(--colorBranco);
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+/* fixed questions */
+.result-question {
+    width: 100%;
+    min-height: 50rem;
+    margin: 0 auto;
+}
+
+.fixed-questions {
+    width: 90rem;
+    height: fit-content;
+    background-color: var(--bgBranco);
+    border: 2rem solid var(--bgVermelhoVinho);
+    margin: 3rem auto 3rem auto;
+    border-radius: .5rem;
+    padding: 2rem;
+}
+
+.currentQuestions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: .2rem;
+    border-bottom: .2rem solid black;
+    flex-direction: column;
+}
+
+.currentProgress {
+    font-size: 3rem;
+}
+
+.hud-prefix {
+    font-size: 2.8rem;
+    font-weight: bold;
+    color: #A7A7A7;
+}
+
+.question {
+    padding: 2rem 0;
+    font-size: 2.4rem;
+    color: #232323;
+    font-weight: 400;
+}
+
+.explanation {
+    width: 100%;
+    height: auto;   
+}
+
+.explanation h3 {
+    font-size: 2.4rem;
+    font-weight: bold;
+
+}
+
+#explanationDesc {
+    color: var(--colorTextBlue);
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.title-question-pointer{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.explanation hr {
+    margin-top: 24px;
+    margin-bottom: 48px;
+    height: 12px;
+    background: #232323;
+}
