@@ -1,0 +1,137 @@
+[
+    {
+        "question": "Qual é a principal diferença entre bancos de dados relacionais e não relacionais?",
+        "explanation": "b) Bancos de dados não relacionais não utilizam tabelas para armazenar dados. Isso ocorre porque os bancos de dados não relacionais usam modelos de dados diferentes dos relacionais, como documentos, grafos e chave-valor, que não requerem a estruturação de dados em tabelas.",
+        "choice1": "Bancos de dados relacionais são mais escaláveis.",
+        "choice2": "Bancos de dados não relacionais não utilizam tabelas para armazenar dados.", 
+        "choice3": "Bancos de dados não relacionais são mais eficientes em termos de espaço em disco.", 
+        "choice4": "Bancos de dados relacionais são mais fáceis de implementar",
+        "answer": 2
+    },
+    {
+        "question": "O que é um banco de dados orientado a documentos?",
+        "explanation": "b) Um banco de dados que armazena dados em documentos no formato JSON ou BSON. O banco de dados orientado a documentos é uma categoria de bancos de dados não relacionais que armazena dados em documentos semiestruturados no formato JSON ou BSON. Esses documentos podem conter campos e valores de diferentes tipos, incluindo arrays e subdocumentos.",
+        "choice1": "Um banco de dados que armazena dados em linhas e colunas.",
+        "choice2": "Um banco de dados que armazena dados em documentos no formato JSON ou BSON.", 
+        "choice3": "Um banco de dados que armazena dados em tabelas.", 
+        "choice4": "Um banco de dados que armazena dados em objetos.",
+        "answer": 2
+    },
+    {
+        "question": "Qual é a principal vantagem de usar um banco de dados orientado a grafos?",
+        "explanation": "d) Capacidade de modelar relações complexas entre dados. Os bancos de dados orientados a grafos são projetados para armazenar e consultar dados altamente conectados, como redes sociais, sistemas de recomendação e dados de geolocalização. Eles são eficientes na modelagem de relacionamentos complexos, como a influência de um usuário em outro usuário em uma rede social.",
+        "choice1": "Suporte a transações ACID.",
+        "choice2": "Alta escalabilidade.", 
+        "choice3": "Modelagem eficiente de dados relacionais.", 
+        "choice4": "Capacidade de modelar relações complexas entre dados.",
+        "answer": 4
+    },
+    {
+        "question": "O que é um banco de dados chave-valor?",
+        "explanation": "c) Um banco de dados que armazena dados como pares de chave e valor. Os bancos de dados chave-valor são projetados para armazenar e recuperar dados de forma rápida e eficiente, usando uma chave como índice para acessar o valor correspondente. Eles são usados principalmente em cenários que exigem alta escalabilidade e baixa latência, como caches e sistemas de sessão.",
+        "choice1": "Um banco de dados que armazena dados em tabelas.",
+        "choice2": "Um banco de dados que armazena dados em um único arquivo.", 
+        "choice3": "Um banco de dados que armazena dados como pares de chave e valor.", 
+        "choice4": "Um banco de dados que armazena dados em documentos.",
+        "answer": 3
+    },
+    {
+        "question": "Qual é a principal desvantagem de usar um banco de dados orientado a documentos?",
+        "explanation": "a) Modelagem ineficiente de dados relacionais. Os bancos de dados orientados a documentos são projetados para armazenar e consultar dados semiestruturados em documentos no formato JSON ou BSON.",
+        "choice1": "Modelagem ineficiente de dados relacionais.",
+        "choice2": "Baixa escalabilidade.", 
+        "choice3": "Baixo suporte a consultas complexas.", 
+        "choice4": "Baixa disponibilidade de ferramentas e recursos.",
+        "answer": 1
+    },
+    {
+        "question": "O que é um banco de dados não relacional?",
+        "explanation": "b) Um banco de dados que não utiliza linguagem SQL. Um banco de dados não relacional é uma categoria de banco de dados que não segue o modelo relacional tradicional. Em vez disso, eles são construídos para atender a requisitos específicos de aplicativos modernos, usando outros modelos de dados, como documentos, grafos ou chave-valor.",
+        "choice1": "Um banco de dados que armazena informações em tabelas relacionais.",
+        "choice2": "Um banco de dados que não utiliza linguagem SQL.", 
+        "choice3": "Um banco de dados que não suporta transações.", 
+        "choice4": "Um banco de dados que não pode ser escalado horizontalmente.",
+        "answer": 2
+    },
+    {
+        "question": "Qual é a principal característica de um banco de dados orientado a documentos?",
+        "explanation": "c) Usa documentos estruturados em JSON ou BSON. Os bancos de dados orientados a documentos são projetados para armazenar documentos que contêm informações em um formato estruturado, geralmente em JSON ou BSON. Esses documentos são armazenados em coleções e são acessados por meio de chaves únicas.",
+        "choice1": "Armazena informações em tabelas relacionais.",
+        "choice2": " Usa linguagem SQL para consultas.", 
+        "choice3": "Usa documentos estruturados em JSON ou BSON.", 
+        "choice4": "Armazena informações em grafos.",
+        "answer": 3
+    },
+    {
+        "question": "Qual é a principal característica de um banco de dados orientado a chave-valor?",
+        "explanation": "d) Armazena informações como pares de chave e valor. Bancos de dados orientados a chave-valor são projetados para armazenar informações como pares de chave e valor, onde a chave é usada para identificar o valor associado. Esses bancos de dados são ideais para armazenar informações simples e altamente escaláveis.",
+        "choice1": "Usa linguagem SQL para consultas.",
+        "choice2": "Armazena informações em tabelas relacionais.", 
+        "choice3": "Usa documentos estruturados em JSON ou BSON.", 
+        "choice4": "Armazena informações como pares de chave e valor.",
+        "answer": 4
+    },
+    {
+        "question": "Qual é a principal característica de um banco de dados orientado a grafos?",
+        "explanation": "d) Armazena informações em grafos. Um banco de dados orientado a grafos é projetado para armazenar informações como grafos, que consistem em nós e arestas, que representam as conexões entre os nós. Esses bancos de dados são especialmente úteis para armazenar dados relacionais e consultas complexas.",
+        "choice1": "Usa documentos estruturados em JSON ou BSON.",
+        "choice2": " Armazena informações em tabelas relacionais.", 
+        "choice3": "Usa linguagem SQL para consultas.", 
+        "choice4": "Armazena informações em grafos.",
+        "answer": 4
+    },
+    {
+        "question": "Qual é a principal característica de um banco de dados orientado a colunas?",
+        "explanation": "d) Armazena informações em colunas em vez de linhas. Bancos de dados orientados a colunas são projetados para armazenar informações em colunas, em vez de linhas. Esses bancos de dados são particularmente úteis para armazenar informações estruturadas que exigem consultas em colunas específicas.",
+        "choice1": "Armazena informações em tabelas relacionais.",
+        "choice2": "Usa linguagem SQL para consultas.", 
+        "choice3": "Armazena informações como pares de chave e valor.", 
+        "choice4": "Armazena informações em colunas em vez de linhas.",
+        "answer": 4
+    },
+    {
+        "question": "Qual é a principal diferença entre um banco de dados relacional e não relacional?",
+        "explanation": "a) Banco de dados não relacional não usa esquema. A principal diferença entre um banco de dados relacional e não relacional é que um banco de dados relacional utiliza um esquema definido para organizar e estruturar os dados em tabelas, enquanto um banco de dados não relacional não utiliza um esquema e pode armazenar dados de forma mais flexível, geralmente em documentos, pares de chave-valor ou gráficos.",
+        "choice1": "Banco de dados não relacional não usa esquema.",
+        "choice2": "Banco de dados não relacional usa SQL para consultas.", 
+        "choice3": "Banco de dados não relacional só é usado para armazenamento de dados não estruturados.", 
+        "choice4": "Não há diferença significativa entre um banco de dados relacional e não relacional.",
+        "answer": 1
+    },
+    {
+        "question": "Qual é um exemplo de banco de dados não relacional?",
+        "explanation": "c) MongoDB. O MongoDB é um exemplo de banco de dados não relacional, pois armazena dados em documentos sem uma estrutura predefinida.",
+        "choice1": "Oracle.",
+        "choice2": "MySQL.", 
+        "choice3": "MongoDB.", 
+        "choice4": "SQL Server.",
+        "answer": 3
+    },
+    {
+        "question": "Qual das seguintes afirmações é verdadeira sobre bancos de dados não relacionais?",
+        "explanation": "d) Eles são altamente flexíveis em termos de estruturação de dados. Ao contrário dos bancos de dados relacionais, que requerem uma estrutura de dados pré-definida e esquematizada, os bancos de dados não relacionais são projetados para serem altamente flexíveis e permitirem uma grande variedade de esquemas de dados.",
+        "choice1": "Eles são baseados em esquemas rígidos e predefinidos.",
+        "choice2": "Eles não são adequados para armazenar dados não estruturados.", 
+        "choice3": "Eles usam linguagem SQL para consulta de dados.", 
+        "choice4": "Eles são altamente flexíveis em termos de estruturação de dados.",
+        "answer": 4
+    },
+    {
+        "question": "Quais dos seguintes tipos de bancos de dados são exemplos de bancos de dados não relacionais?",
+        "explanation": "b) MongoDB e Cassandra. O MongoDB e o Cassandra são dois exemplos populares de bancos de dados não relacionais, projetados para escalabilidade horizontal e flexibilidade de dados.",
+        "choice1": "Oracle e Microsoft SQL Server.",
+        "choice2": "MongoDB e Cassandra.", 
+        "choice3": "MySQL e PostgreSQL.", 
+        "choice4": "SQLite e Firebird.",
+        "answer": 2
+    },
+    {
+        "question": "Qual das seguintes afirmações é verdadeira sobre o modelo de dados em um banco de dados não relacional?",
+        "explanation": "b) Ele pode incluir documentos, gráficos e outros tipos de dados não estruturados. Os bancos de dados não relacionais podem incluir uma grande variedade de tipos de dados, incluindo documentos, gráficos, dados hierárquicos e outros tipos de dados não estruturados.",
+        "choice1": "Ele é estritamente baseado em tabelas relacionais.",
+        "choice2": "Ele pode incluir documentos, gráficos e outros tipos de dados não estruturados.", 
+        "choice3": "Ele é altamente normalizado para garantir a integridade dos dados.", 
+        "choice4": "Ele é limitado à consulta de dados usando a linguagem SQL.",
+        "answer": 2
+    }
+]
